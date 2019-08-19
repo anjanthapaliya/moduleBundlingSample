@@ -1,0 +1,21 @@
+{
+  "name": "jsbundlertest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "browserify main.js -t [babelify] > dist/js/bundle.js"
+  },
+  "author": "anjan thapaliya",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0"
+  }
+}
